@@ -1,0 +1,47 @@
+/* h2{
+    background: red;
+    color: white;
+}
+
+h2,p,h3{
+    background-color: blueviolet;
+
+}
+ .heading */
+
+
+
+ /* + ka mtlb hai sibling 
+ > ka mtlb hain child */
+ /* ~  eska mtlb hain sare child aage ke prr kam karegaa */
+ div ~p{ 
+    background: rgb(81, 203, 221);
+ }
+ p:hover{
+   background-color: brown;
+   font-size : x-large;
+   color: red;
+
+ } 
+   p::after{
+    content: " i am done bro.";
+    background-color : greenyellow;
+    color: rgb(76, 40, 48);
+
+   }
+   p::before{
+    content: " Hye , I am adarsh .";
+    background-color : rgb(7, 6, 29);
+    color: rgb(175, 78, 99);
+    
+   }
+   p::selection{
+   
+    background-color : rgb(10, 91, 49);
+    
+    
+   }
+   p:nth-child(2){
+    background-color: black;
+   }
+   
